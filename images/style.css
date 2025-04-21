@@ -1,0 +1,124 @@
+
+
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+  
+}
+ 
+.col {
+    display:flex;
+    flex-direction: row;
+}
+
+header {
+  background-color: #043873;  
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -25px;
+
+}
+.logo {
+    height: 3vh;
+    border: 1px;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 5px;;
+}
+.fa-bars {
+    margin: 20px;
+    border: 1; 
+}
+
+.navlinks {
+    display: none;
+}
+
+.btn-1 {
+    display: none;
+}
+.landing-page1, .landing-page2 {
+    background-color: #043873;
+    color: aliceblue;
+    border: 1px;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    position: relative;
+}
+.landing-page1 {
+    background-image: url('./Element.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.page {
+     background-position-x: left;
+     background-size: contain;
+     text-align: center;   
+    padding-top: 50px;
+}
+
+.badge {
+    width: 80%;
+    
+}
+
+.badge-1, .badge-2, .badge-3 {
+    width: 50%;
+padding-left: 120px;
+}
+
+.page-2 {
+  text-align: center;
+  padding-top: 50px;
+  .work-together-img {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+
+.stat {
+   text-align: center;
+}
+.btn {
+    border: 1px;
+height: 40px;
+text-align: center;
+padding: 30px;
+border-radius: 5px;
+background-color: #4F9cf9;
+color: aliceblue;
+margin-top: 30px;
+}
+
+.container {
+    border: 1px;
+    height: 200px;
+    width: 300; 
+    background-color: #c4defd;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
